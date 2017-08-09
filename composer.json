@@ -1,0 +1,20 @@
+{
+    "name": "alquemie/gf-campaign-fields",
+    "description": "Creates Gravity Form fields that store campaign information so it can be sent to 3rd party tools",
+    "authors": [
+        {
+            "name": "Chris Carrel",
+            "email": "plugins@alquemie.net"
+        }
+    ],
+    "homepage": "https://www.gravityaddons.com",
+    "license": "GPL-3.0",
+    "type": "wordpress-plugin",
+    "require": {
+  		"php": ">=5.6",
+      "whichbrowser/server": "v2.0.12"
+    },
+    "config": {
+        "vendor-dir": "lib"
+    }
+}

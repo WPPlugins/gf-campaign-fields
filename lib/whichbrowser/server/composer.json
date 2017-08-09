@@ -1,0 +1,21 @@
+{
+    "name": "whichbrowser/server",
+    "description": "Useragent sniffing server for Javascript",
+    "type": "project",
+    "keywords": ["useragent","browser"],
+    "homepage": "http://whichbrowser.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niels Leenheer",
+            "email": "niels@leenheer.nl",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4.0",
+        "ralouphie/getallheaders": "~0.1.7",
+        "whichbrowser/parser": "^2.0.20"
+    }
+}
